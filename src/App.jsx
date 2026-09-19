@@ -1,13 +1,5 @@
-import './App.css'
-import Mainpage from './DeciderSpin/mainPage/Mainpage'
+import Mainpage from './DeciderSpin/mainPage/Mainpage.jsx'
 
-function App() {
-
-  return (
-    <>
-    <Mainpage />
-    </>
-      )
+export default function App() {
+  return <Mainpage />
 }
-
-export default App
